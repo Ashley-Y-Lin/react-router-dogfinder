@@ -1,0 +1,27 @@
+.dog-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dog-card {
+    max-width: 200px;
+    flex-direction: column;
+}
+
+.dog-img {
+    max-width: 200px;
+    border-radius: 90%;
+}
+
+ul {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+li {
+    text-align: left;
+}
